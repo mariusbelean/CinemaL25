@@ -1,2 +1,3 @@
 # CinemaL25
-School project 
+School project.
+More info coming soon
