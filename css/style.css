@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 100%;
+    position: relative;
+    background-color: aqua;
+}
+
+.web_container {
+    width: 1400px;
+    margin: auto;
+}
+
+.header-row1 {
+    position: relative;
+    padding: 20px 0 20px 0;
+}
+
+.header-row2 {
+    height: 400px;
+    background-color: black;
+}
+
+.logo_container {
+    display: inline-block;
+    left: 0;
+}
+
+.login_container {
+    position: absolute;
+    display: inline-block;
+    right: 0;
+}
+
+.username_field, .password_field {
+    display: inline-block;
+}
+
+.signUp-link {
+    position: absolute;
+    right: 0;
+}
