@@ -1,5 +1,5 @@
 <?php
-	include 'conn.php';
+	include 'php/conn.php';
 ?>
 
 <!DOCTYPE html>
@@ -10,6 +10,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="./fontawesome_css/all.css">
     <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <title>CinemaL25</title>
 </head>
 <body>
@@ -36,7 +37,10 @@
                     <a href="#" class="signUp-link">Sign Up</a>
                 </div>
             </div>
-
+            <button id="btnLoc">Arata Locuri</button>
+            <div id="locuri">
+                Aici vor aparea datele
+            </div>
             <div class="header-row2">
                 noyce
             </div>
