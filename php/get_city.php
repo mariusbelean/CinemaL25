@@ -1,15 +1,19 @@
 <?php
 
-	include 'conn.php';
+require 'conn.php';
 
-$sql = "SELECT * FROM dbo.Locuri";
+$sql = "SELECT * FROM dbo.Orase";
+
 $stmt = sqlsrv_query( $conn, $sql );
 if( $stmt === false) {
     die( print_r( sqlsrv_errors(), true) );
 }
 
+$var = " selected";
+
 while( $row = sqlsrv_fetch_array( $stmt, SQLSRV_FETCH_ASSOC) ) {
-      echo $row['id_loc'].", ".$row['id_sala'].", ".$row['numar_loc']."<br />";
+      echo "<option value='".$row['id_oras']."'".$var.">".$row['nume_oras']."</option><br>";
+      $var = "";
 }
 
 sqlsrv_free_stmt( $stmt);

@@ -1,5 +1,5 @@
 <?php
-	include 'php/conn.php';
+	include 'php/is_connected.php';
 ?>
 
 <!DOCTYPE html>
@@ -19,7 +19,7 @@
             <div class="header-row1">
                 <div class="logo_container">
                     <a href="#">
-                        <img src="./images/logo.svg" alt="Logo-MovieCity">
+                        <img id="logo" src="./images/logo.png" alt="CinemaL25 Logo">
                     </a>
                 </div>
                 <div class="login_container">
@@ -37,12 +37,13 @@
                     <a href="#" class="signUp-link">Sign Up</a>
                 </div>
             </div>
-            <button id="btnLoc">Arata Locuri</button>
-            <div id="locuri">
-                Aici vor aparea datele
-            </div>
-            <div class="header-row2">
-                noyce
+        </div>
+        
+        <div class="header-row2">
+            <div class="web_container">
+                <div id="slider_container">
+                    fill
+                </div>
             </div>
         </div>
     </div>
@@ -50,7 +51,19 @@
     <div class="body">
         <div class="web_container">
             <div class="body_container">
+                <h1>CINEMAS</h1>
+                <select id="cityList">
+
+                </select>
+
+                <div id="cinema_container">
+
+                </div>
+
+                <h1>PROGRAM</h1>
+                <div id="program_container">
                 
+                </div>
             </div>
         </div>
     </div>

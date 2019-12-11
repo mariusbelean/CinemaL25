@@ -1,16 +1,7 @@
 <?php
-$serverName = "DESKTOP-425VGL3\MARIUSSQL"; //serverName\instanceName
 
-
-$connectionInfo = array( "Database"=>"CinemaL25");
+$serverName = "DESKTOP-LI8CSNN";
+$connectionInfo = array( "Database"=>"CinemaL25", "UID"=>"sa", "PWD"=>"sqlserverpass");
 $conn = sqlsrv_connect( $serverName, $connectionInfo);
-
-if( $conn ) {
-     echo "Connection to SQL Server database established.<br />";
-}else{
-     echo "Connection could not be established.<br />";
-     die( print_r( sqlsrv_errors(), true));
-}
-
 
 ?>

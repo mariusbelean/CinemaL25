@@ -1,12 +1,7 @@
+/*COMMON*/
 * {
     margin: 0;
     padding: 0;
-}
-
-.header {
-    width: 100%;
-    position: relative;
-    background-color: aqua;
 }
 
 .web_container {
@@ -14,19 +9,28 @@
     margin: auto;
 }
 
+/*COMMON*/
+
+/*HEADER*/
+.header {
+    width: 100%;
+    position: relative;
+    background-color: rgb(216, 216, 216);
+}
+
 .header-row1 {
     position: relative;
     padding: 20px 0 20px 0;
 }
 
-.header-row2 {
-    height: 400px;
-    background-color: black;
-}
-
 .logo_container {
     display: inline-block;
     left: 0;
+}
+
+#logo {
+    width: 200px;
+    height: 36px;
 }
 
 .login_container {
@@ -43,3 +47,27 @@
     position: absolute;
     right: 0;
 }
+
+.header-row2 {
+    background-color: black;
+}
+
+#slider_container {
+    background-color: rgb(85, 85, 85);
+    height: 350px;
+}
+
+/*HEADER*/
+
+/*BODY*/
+.body {
+    width: 100%;
+    position: relative;
+    background-color: rgb(172, 172, 172);
+}
+
+.body_container {
+    padding-top: 45px;
+}
+
+/*BODY*/
