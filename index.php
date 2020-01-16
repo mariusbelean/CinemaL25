@@ -42,7 +42,7 @@
         <div class="header-row2">
             <div class="web_container">
                 <div id="slider_container">
-                    fill
+                     <img id="logo" src="./images/ultra.jpg" style="width:1400;height:400px;">
                 </div>
             </div>
         </div>
@@ -64,6 +64,25 @@
                 <div id="program_container">
                 
                 </div>
+                
+                <div id="myModal" class="modal">
+                    <span class="close">&times;</span>
+                    <div class="modal-content">
+                    </div>
+                    <div id="booking_result">  
+                    </div>
+                </div>
+                    
+                <label for="firstname"><b>First Name</b></label>
+                <input id="fn" type="text" placeholder="Enter First Name" name="username">
+                <label for="lastname"><b>Last Name</b></label>
+                <input id="ln" type="text" placeholder="Enter Last Name" name="lastname">
+                <label for="email"><b>E-mail</b></label>
+                <input id="em" type="text" placeholder="Enter E-mail" name="email">
+                <label for="tel"><b>Tel.</b></label>
+                <input id="tel" type="text" placeholder="Enter Tel." name="tel">
+                <button onclick="signup()">Sign Up</button>
+                <div id="sign-up"></div>
             </div>
         </div>
     </div>
